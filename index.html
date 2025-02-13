@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EAUROUGE - Autos en Venta</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #fff4e6;
+            color: #333;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ff6600;
+            color: white;
+            padding: 20px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .auto {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            margin: 20px;
+            padding: 20px;
+            width: 300px;
+            transition: transform 0.3s;
+        }
+        .auto:hover {
+            transform: scale(1.05);
+        }
+        img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .contacto {
+            background-color: #007acc;
+            color: white;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        a {
+            color: white;
+            font-weight: bold;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>EAUROUGE - AUTOS EN VENTA</header>
+    
+    <div class="container">
+        <div class="auto">
+            <img src="61294.jpg" alt="Auto 1">
+            <h2>Mercedes-Benz CLA</h2>
+            <p>Motor 2.0 Turbo, 208 HP, Año 2019</p>
+        </div>
+        
+        <div class="auto">
+            <img src="DSC_1705-2.jpg" alt="Auto 2">
+            <h2>Jaguar XF</h2>
+            <p>Motor 2.0 Turbo, 250 HP, Año 2018</p>
+        </div>
+    </div>
+    
+    <div class="contacto">
+        <h2>Contacto</h2>
+        <p>Email: <a href="mailto:contacto@eaurouge.com">contacto@eaurouge.com</a></p>
+        <p>WhatsApp: <a href="https://wa.me/123456789">+123 456 789</a></p>
+    </div>
+</body>
+</html>
